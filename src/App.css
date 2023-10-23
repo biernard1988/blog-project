@@ -1,7 +1,24 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
+.background-container {
+  background-color: rgb(77, 94, 99);
+  width: auto;
+  min-height: 500vh;
+}
+.main-wrapper {
+  min-width: 80%;
+  max-width: 80%;
+  margin: 3rem auto;
+}
+
+.button-area {
+  margin-left: 6.5rem;
+}
+
+.btn-remove {
+  margin-left: 1rem;
+}
