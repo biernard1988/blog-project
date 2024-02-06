@@ -68,12 +68,12 @@ const Main = () => {
             />
           </div>
           <div className="d-flex gap-2">
-            <span className="text-light fw-bold">Comment:</span>
+            <span className="text-light fw-bold">Text:</span>
             <textarea
               onChange={handleInputComment}
               cols="30"
               rows="10"
-              placeholder="Enter your comment"
+              placeholder="Enter your text"
               value={comment}
             ></textarea>
           </div>
