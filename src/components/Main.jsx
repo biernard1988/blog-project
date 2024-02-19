@@ -1,5 +1,4 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Button } from "react-bootstrap";
 import MyCard from "./MyCard";
 import { useState } from "react";
 import "../App.css";
@@ -63,7 +62,7 @@ const Main = () => {
             <input
               type="text"
               onChange={handleInputPhoto}
-              placeholder="Enter your photo"
+              placeholder="Image address"
               value={photo}
             />
           </div>

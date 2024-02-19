@@ -12,12 +12,10 @@ function App() {
         <Navbar onBlogItClick={() => setShowMain(true)} />
         {showMain ? (
           <div className="main-wrapper">
-            {/* Render the Main component when showMain is true */}
             <Main />
           </div>
         ) : (
           <div className="main-wrapper">
-            {/* Render an empty div or other content when showMain is false */}
             <div className="background-container"></div>
           </div>
         )}

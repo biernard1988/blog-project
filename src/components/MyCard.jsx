@@ -6,12 +6,9 @@ import "../App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrash } from "@fortawesome/free-solid-svg-icons";
 
-// Define a functional component named MyCard, which receives the `blog` and `onDelete` props
 function MyCard({ blog, onDelete }) {
-  // Initialize state variable showFullComment and its setter function
   const [showFullComment, setShowFullComment] = useState(false);
 
-  // Function to toggle the visibility of the full comment
   const toggleShowComment = () => {
     setShowFullComment(!showFullComment);
   };
