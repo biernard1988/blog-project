@@ -3,7 +3,7 @@ import MyCard from "./MyCard";
 import { useState } from "react";
 import "../App.css";
 
-const Main = () => {
+const Home = () => {
   // Initialize state variables for title, photo, comment, and blogs
   const [title, setTitle] = useState("");
   const [photo, setPhoto] = useState("");
@@ -96,4 +96,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default Home;

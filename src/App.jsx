@@ -1,18 +1,18 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Main from "./components/Main";
+import Home from "./components/Home";
 import { useState } from "react";
 
 function App() {
-  const [showMain, setShowMain] = useState(false);
+  const [showHome, setShowHome] = useState(false);
 
   return (
     <div className="App vh-100">
       <div className="background-container">
-        <Navbar onBlogItClick={() => setShowMain(true)} />
-        {showMain ? (
+        <Navbar onBlogItClick={() => setShowHome(true)} />
+        {showHome ? (
           <div className="main-wrapper">
-            <Main />
+            <Home />
           </div>
         ) : (
           <div className="main-wrapper">
